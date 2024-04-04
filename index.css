@@ -1,0 +1,742 @@
+body {
+  background-image: url("https://cdn.builder.io/api/v1/image/assets/TEMP/3e2d955a4c9a7d0735ce87fc9e91c40fdb67c7ac923deec06f02597944c47c14?apiKey=ef2e53dfdbfa4791862d5c0365646874&");
+  background-size: cover;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  font-size: 40px;
+  color: #000;
+  font-weight: 400;
+}
+
+@media (max-width: 991px) {
+  .navigation {
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+}
+
+.nav-link {
+  font-family: Clicker Script, sans-serif;
+  margin: auto 0;
+  color: #000;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  transform: scale(1.1);
+}
+
+.logo-image {
+  width: 130px;
+  max-width: 100%;
+  aspect-ratio: 2.38;
+  object-fit: contain;
+  object-position: center;
+  align-self: stretch;
+}
+
+.contacts-link {
+  flex-grow: 1;
+  flex-basis: auto;
+}
+
+.title {
+  text-align: center;
+  color: #000;
+  font: 400 96px "Clicker Script", sans-serif;
+  margin-bottom: 0;
+}
+
+@media (max-width: 991px) {
+  .title {
+    font-size: 40px;
+  }
+}
+
+.description {
+  color: #000;
+  text-align: center;
+  margin: 0;
+  font: 400 32px "Clicker Script", sans-serif;
+}
+
+@media (max-width: 991px) {
+  .description {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+
+.social-links {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 5% 0;
+}
+
+.social-links a:hover {
+  transform: scale(1.1);
+}
+
+.about-x,
+.about-telegram {
+  aspect-ratio: 1;
+  background-size: cover;
+  width: 60px;
+  max-width: 100%;
+}
+
+.about-x {
+  background-image: url("https://cdn.builder.io/api/v1/image/assets/TEMP/46196bc30be0ea2f73f55349f5ad0c47d47e4005d9fbdbd1261ceb5f21161437?apiKey=ef2e53dfdbfa4791862d5c0365646874&");
+}
+
+.about-telegram {
+  background-image: url("https://cdn.builder.io/api/v1/image/assets/TEMP/23f5a7cd0567569b113f500ff4e47bb824eae10785c79e628759830838851e98?apiKey=ef2e53dfdbfa4791862d5c0365646874&");
+}
+
+.buy-button {
+  display: block;
+  border-radius: 26px;
+  border: 3px solid #000;
+  background-color: transparent;
+  margin: 30px auto;
+  color: #000;
+  text-align: right;
+  justify-content: center;
+  padding: 17px 12px;
+  font: 400 32px "Clicker Script", sans-serif;
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.buy-button:hover {
+  transform: scale(1.1);
+}
+
+.utility-distribution-container {
+  margin-top: 38px;
+  width: 100%;
+  max-width: 1160px;
+}
+
+@media (max-width: 991px) {
+  .utility-distribution-container {
+    max-width: 100%;
+  }
+}
+
+.utility-distribution-row {
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 991px) {
+  .utility-distribution-row {
+    flex-direction: column;
+    gap: 0;
+  }
+}
+
+.utility-column,
+.distribution-column {
+  width: 50%;
+}
+
+@media (max-width: 991px) {
+  .utility-column,
+  .distribution-column {
+    width: 100%;
+  }
+}
+
+.utility-content {
+  color: #000;
+  margin-top: 24px;
+  font: 400 32px "Clicker Script", sans-serif;
+}
+
+@media (max-width: 991px) {
+  .utility-content {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+
+.distribution-content {
+  color: #000;
+  font: 400 32px "Clicker Script", sans-serif;
+}
+
+@media (max-width: 991px) {
+  .distribution-content {
+    max-width: 100%;
+    margin-top: 28px;
+  }
+}
+
+.tokenomics-title {
+  color: #000;
+  margin-top: 41px;
+  font: 400 60px "Clicker Script", sans-serif;
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .tokenomics-title {
+    margin-top: 40px;
+  }
+}
+
+.tokenomics-container {
+  margin-top: 45px;
+  width: 100%;
+  max-width: 1100px;
+}
+
+@media (max-width: 991px) {
+  .tokenomics-container {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+
+.tokenomics-row {
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 991px) {
+  .tokenomics-row {
+    flex-direction: column;
+    gap: 0;
+  }
+}
+
+.token-info-column {
+  width: 30%;
+}
+
+@media (max-width: 991px) {
+  .token-info-column {
+    width: 100%;
+  }
+}
+
+.token-info-content {
+  color: #000;
+  font: 400 24px "Clicker Script", sans-serif;
+}
+
+@media (max-width: 991px) {
+  .token-info-content {
+    margin-top: 40px;
+  }
+}
+
+.token-distribution-column {
+  width: 70%;
+}
+
+@media (max-width: 991px) {
+  .token-distribution-column {
+    width: 100%;
+  }
+}
+
+.token-distribution-content {
+  flex-grow: 1;
+}
+
+@media (max-width: 991px) {
+  .token-distribution-content {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+
+.token-distribution-row {
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 991px) {
+  .token-distribution-row {
+    flex-direction: column;
+    gap: 0;
+  }
+}
+
+.token-distribution-column-1,
+.token-distribution-column-2 {
+  width: 50%;
+}
+
+@media (max-width: 991px) {
+  .token-distribution-column-1,
+  .token-distribution-column-2 {
+    width: 100%;
+  }
+}
+
+.token-distribution-content-1,
+.token-distribution-content-2 {
+  color: #000;
+  font: 400 24px "Clicker Script", sans-serif;
+}
+
+@media (max-width: 991px) {
+  .token-distribution-content-1,
+  .token-distribution-content-2 {
+    margin-top: 40px;
+  }
+}
+
+.buy-button-2 {
+  border-radius: 26px;
+  border: 3px solid #000;
+  background-color: transparent;
+  margin-top: 34px;
+  color: #000;
+  text-align: right;
+  justify-content: center;
+  padding: 17px 12px;
+  font: 400 32px "Clicker Script", sans-serif;
+}
+
+.footer-image {
+  aspect-ratio: 1.85;
+  object-fit: auto;
+  object-position: center;
+  width: 100%;
+  align-self: stretch;
+  margin-top: 10px;
+}
+
+@media (max-width: 991px) {
+  .footer-image {
+    max-width: 100%;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  aspect-ratio: 0.7;
+  width: 201px;
+  align-items: center;
+  justify-content: center;
+  padding: 55px 30px;
+}
+
+@media (max-width: 991px) {
+  .image-container {
+    padding: 0 20px;
+  }
+}
+
+.image-background {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.image-foreground {
+  aspect-ratio: 0.79;
+  object-fit: auto;
+  object-position: center;
+  width: 100%;
+}
+
+.image-container-2 {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  aspect-ratio: 0.7;
+  width: 201px;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+@media (max-width: 991px) {
+  .image-container-2 {
+    padding: 0 20px;
+  }
+}
+
+.image-background-2 {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.image-foreground-2 {
+  aspect-ratio: 0.54;
+  object-fit: auto;
+  object-position: center;
+  width: 100%;
+}
+
+.chest-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.chest-heading {
+  color: #000;
+  font: 400 96px "Clicker Script", sans-serif;
+  margin-bottom: 0;
+}
+
+@media (max-width: 991px) {
+  .chest-heading {
+    font-size: 40px;
+  }
+}
+
+.chest-description {
+  color: #000;
+  margin: 0;
+  font: 400 32px "Clicker Script", sans-serif;
+}
+
+@media (max-width: 991px) {
+  .chest-description {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+
+.chest-options {
+  align-self: stretch;
+  margin-top: 0;
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .chest-options {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+
+.chest-row {
+  gap: 10px;
+  display: flex;
+}
+
+@media (max-width: 991px) {
+  .chest-row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+  }
+}
+
+.bronze-chest {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 33%;
+  margin-left: 0;
+}
+
+@media (max-width: 991px) {
+  .bronze-chest {
+    width: 100%;
+  }
+}
+
+.bronze-chest-content {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  font-size: 64px;
+  color: #000;
+  font-weight: 400;
+}
+
+@media (max-width: 991px) {
+  .bronze-chest-content {
+    margin-top: 40px;
+    font-size: 40px;
+  }
+}
+
+.bronze-chest-title {
+  font-family: "Clicker Script", sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .bronze-chest-title {
+    font-size: 40px;
+  }
+}
+
+.bronze-chest-image {
+  aspect-ratio: 1.18;
+  object-fit: auto;
+  object-position: center;
+  width: 100%;
+  margin-top: 18px;
+}
+
+.silver-chest {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 33%;
+  margin-left: 20px;
+}
+
+@media (max-width: 991px) {
+  .silver-chest {
+    width: 100%;
+  }
+}
+
+.silver-chest-content {
+  display: flex;
+  flex-direction: column;
+  font-size: 64px;
+  color: #000;
+  font-weight: 400;
+}
+
+@media (max-width: 991px) {
+  .silver-chest-content {
+    margin-top: 40px;
+    font-size: 40px;
+  }
+}
+
+.silver-chest-title {
+  font-family: "Clicker Script", sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .silver-chest-title {
+    font-size: 40px;
+  }
+}
+
+.silver-chest-image {
+  aspect-ratio: 1.15;
+  object-fit: auto;
+  object-position: center;
+  width: 100%;
+  margin-top: 32px;
+}
+
+.gold-chest {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 33%;
+  margin-left: 20px;
+}
+
+@media (max-width: 991px) {
+  .gold-chest {
+    width: 100%;
+  }
+}
+
+.gold-chest-content {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  font-size: 64px;
+  color: #000;
+  font-weight: 400;
+}
+
+@media (max-width: 991px) {
+  .gold-chest-content {
+    margin-top: 40px;
+    font-size: 40px;
+  }
+}
+
+.gold-chest-title {
+  font-family: "Clicker Script", sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .gold-chest-title {
+    font-size: 40px;
+  }
+}
+
+.gold-chest-image {
+  aspect-ratio: 1.04;
+  object-fit: auto;
+  object-position: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.image-1 {
+  width: 51px;
+  aspect-ratio: 0.91;
+  object-fit: cover;
+  object-position: center;
+}
+
+.heroes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero {
+  width: 20%;
+}
+
+.hero-name {
+  font-family: "Clicker Script", sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+.hero-img-container {
+  height: 270px;
+  width: 100%;
+}
+
+.hero-image-1 {
+  aspect-ratio: 0.7;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+}
+
+.image-2 {
+  width: 30px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: center;
+  margin: auto 0;
+}
+
+.hero-image-3 {
+  position: relative;
+  aspect-ratio: 0.7;
+  padding: 55px 30px;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+@media (max-width: 991px) {
+  .hero-image-3 {
+    padding: 0 20px;
+  }
+}
+
+.hero-image-3-background {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.hero-image-3-image {
+  aspect-ratio: 0.79;
+  object-fit: auto;
+  object-position: center;
+  width: 100%;
+}
+
+.hero-image-2 {
+  position: relative;
+  padding: 50px;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+@media (max-width: 991px) {
+  .hero-image-2 {
+    padding: 0 20px;
+  }
+}
+
+.hero-image-2-background {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.hero-image-2-image {
+  position: relative;
+  object-position: center;
+  width: 100%;
+}
+
+.hero-image-1-background {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.hero-image-1-image {
+  position: relative;
+  object-position: center;
+  width: 100%;
+}
